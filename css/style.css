@@ -219,7 +219,12 @@ footer {
   .text-header a {
     margin: 0 8px;
   }
-
+  .text-header a:first-of-type:hover {
+    background-color: #71c0d4;
+  }
+  .text-header a:last-of-type:hover {
+    background-color: var(--lightViolet);
+  }
   .section01,
   .section02 {
     margin: 80px auto;
@@ -275,5 +280,112 @@ footer {
     display: inline-block;
     width: 193px;
     height: 58px;
+  }
+}
+@media (min-width: 1024px) {
+  .logo {
+    width: 100%;
+    margin: 80px auto 61px auto;
+  }
+  header {
+    width: 100%;
+    max-width: 1440px;
+    height: 358px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .mainpicture {
+    position: absolute;
+    min-height: 303px;
+    background-size: contain;
+    background-image: url(../images/desktop/image-hero-left.png),
+      url(../images/desktop/image-hero-right.png);
+    background-position: -2%, +102%;
+    margin-bottom: 72px;
+  }
+  .text-header {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 540px;
+  }
+  h1 {
+    margin-bottom: 34px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .text-header a {
+    margin: 0 8px;
+  }
+  section {
+    gap: 30px;
+    margin-bottom: 80px;
+  }
+  .main-text {
+    padding: 0 450px;
+  }
+  .built {
+    margin-bottom: 16px;
+  }
+  .main-text h2 {
+    width: 445px;
+  }
+  .main-text p:last-of-type {
+    margin-bottom: 184px;
+  }
+  .section02 {
+    top: -190px;
+  }
+  footer {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .background {
+    max-width: 1440px;
+    height: 308px;
+    background-image: url(../images/desktop/image-footer.jpg);
+  }
+  .ocean {
+    max-width: 1440px;
+    height: 308px;
+  }
+  .h2-footer,
+  .p-footer,
+  .a-footer {
+    width: 0;
+    top: 116px;
+    left: 0px;
+    transform: translateX(0);
+  }
+  .h2-footer {
+    width: 350px;
+    left: 165px;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: left;
+  }
+  .p-footer {
+    width: 350px;
+    left: 650px;
+    text-align: left;
+  }
+  .a-footer {
+    display: inline-block;
+    width: 193px;
+    height: 58px;
+    background-color: var(--darkViolet);
+    border-radius: 29px;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 58px;
+    left: 1082px;
+  }
+  .a-footer:hover {
+    background-color: #b18bdd;
+  }
+  .a-footer span {
+    color: var(--lightViolet);
   }
 }
