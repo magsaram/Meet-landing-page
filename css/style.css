@@ -197,3 +197,83 @@ footer {
 .a-footer span {
   color: var(--lightViolet);
 }
+@media (min-width: 768px) {
+  .logo {
+    width: 100%;
+    margin: 48px auto 54px auto;
+  }
+  .mainpicture {
+    min-height: 303px;
+    background-size: 105%;
+    background-position: center;
+    margin-bottom: 72px;
+  }
+  .text-header {
+    margin: 0 auto;
+    width: 457px;
+  }
+  h1 {
+    margin-bottom: 24px;
+    font-size: 48px;
+  }
+  .text-header a {
+    margin: 0 8px;
+  }
+
+  .section01,
+  .section02 {
+    margin: 80px auto;
+  }
+  section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 64px;
+  }
+  section img {
+    width: 20%;
+  }
+  .main-text {
+    padding: 0 97px;
+  }
+  .built {
+    margin-bottom: 48px;
+  }
+  .main-text h2 {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .main-text p:last-of-type {
+    margin-top: 32px;
+    margin-bottom: 192px;
+  }
+  .section02 {
+    top: -190px;
+  }
+  .background {
+    background-image: url(../images/tablet/image-footer.jpg);
+  }
+  .h2-footer,
+  .p-footer,
+  .a-footer {
+    width: 573px;
+  }
+  .h2-footer {
+    top: 92px;
+    width: 457px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .p-footer {
+    top: 212px;
+  }
+  .a-footer {
+    top: 304px;
+    display: inline-block;
+    width: 193px;
+    height: 58px;
+  }
+}
